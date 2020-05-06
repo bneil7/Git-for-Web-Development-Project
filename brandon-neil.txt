@@ -56,50 +56,52 @@ https://codepen.io/bneil7/pen/WNQdavz
 
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
     //  an #id is more specific than .class, and can only be used to identify one element. 
-        the class selector can be used to identify more than one. 
-        example: you would use id for __, and class for 
+    //  the class selector can be used to identify more than one. 
+    //  example: you would use id for styling one single element, and class for multiple elements throughout the page.
 
     20. How do we select classes in CSS?
-    //  
+    //  put "." before the element name (.class {})
 
     21. How do we select a p element with a single class of “human””?
-    //  
+    //  p.human {}
 
     22. What is a parent child selector? When would this be useful? 
-    //  
+    //  parent ">" child. it selects all elements that are direct children of the (parent) element. 
 
     23. How do you select all links within a div with the class of sidebar?
-    //  
+    //  a:link, a:visited (to select all links that are unvisited and visited)
 
     24. What is a pseudo selector?
-    //  
+    //  it's a keyword added to the selector to signify the state the element is in (like, :hover)
 
     25. What do we use the change the spacing between lines?
-    //  
+    //  line-height
 
     26. What do we use to change the spacing between letters?
-    //  
+    //  letter-spacing
 
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
-    //  
+    //  text-transform: uppercase;
+    //  text-transform: lowercase;
+    //  text-transform: capitalize;
 
     28. How do I add a 1px border around my div that is dotted and black?
-    //  
+    //  border: 1px dotted black;
 
     29. How do I select everything on the page? 
-    //  
+    //  * (wildcard selector)
 
     30. How do I write a comment in CSS?
-    //  
+    //  /* comment goes here */
 
     31. How do I find out what file I am in, when I am using the command line? 
-    //  
+    //  look at the prompt symbol ($,%,->, etc.)
 
     32. Using the command line - how do I see a list of files/folders in my current folder?
-    //  
+    //  ls
 
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
-    //  
+    //  rm, and beacuse there is no warning before it's removed and it is irreversible. 
 
     34. Why should I use version control? 
     //  it tracks the changes we've made to our files through branching.
@@ -112,12 +114,12 @@ https://codepen.io/bneil7/pen/WNQdavz
 
     37. Walk me through Lambda's git flow. 
     // 
-    Step 1, Fork from repository and ensure it's a forked copy (on your GitHub profile)
-    Step 2, Add your TL as a collaborator
-    Step 3, Clone the repo (manually copy/paste into git, "git clone")
-    Step 4, Make a branch on your fork (create your own branch, 'firstName-lastName')
-    Step 5, Submit pull request (PR) to *your* fork, then add your TL as a reviewer
-    Step 6 (as a TL/PM), Accept merge request after reviewing 
+    //  Step 1, Fork from repository and ensure it's a forked copy (on your GitHub profile)
+    //  Step 2, Add your TL as a collaborator
+    //  Step 3, Clone the repo (manually copy/paste into git, "git clone")
+    //  Step 4, Make a branch on your fork (create your own branch, 'firstName-lastName')
+    //  Step 5, Submit pull request (PR) to *your* fork, then add your TL as a reviewer
+    //  Step 6 (as a TL/PM), Accept merge request after reviewing 
 
 
 Stretch Questions
