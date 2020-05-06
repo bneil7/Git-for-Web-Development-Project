@@ -1,4 +1,4 @@
-https://codepen.io/bneil7/pen/WNQdavz?editors=1100
+https://codepen.io/bneil7/pen/WNQdavz
 
     1. What is Semantic HTML? 
     //HTML elements that give meaning to your content
@@ -7,23 +7,23 @@ https://codepen.io/bneil7/pen/WNQdavz?editors=1100
     //for the structure of our website, marking up content.
     
     3. What is an attribute and where do we put it? 
-
+    // attributes define the elements, and they're inside the " " of the name="value" pair
     4. What is the h1 tag used for? How many times should I use it on a page?
-
+    // h1 tag is used for the title of the page, and it should only be used once. 
     5. Name two tags that have required attributes
-
+    // 'img' and 'a'.
     6. What do we put in the head of our HTML document? 
-
+    // metadata.
     7. What is an id? 
-
+    // an id is a CSS selector that only goes on one element, more specific than class, element, and wildcard selectors.
     8. What elements can I add an id to? 
-
+    // it can be used on any element. 
     9. How many times can I use the same id on a page? 
-
+    // only one time per element. 
     10. What is a class? 
-
+    // less specific than id, the class attribute can be used for elements with the same names. 
     11. What elements can I add a class to? 
-
+    // 
     12. How many times can I use the same class on a page? 
 
     13. How do I get my link to open in a new tab?
