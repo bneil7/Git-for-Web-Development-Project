@@ -1,78 +1,114 @@
 https://codepen.io/bneil7/pen/WNQdavz
 
     1. What is Semantic HTML? 
-    //HTML elements that give meaning to your content
+    // HTML elements that give meaning to your content
 
     2. What is HTML used for? 
-    //for the structure of our website, marking up content.
+    // for the structure of our website, marking up content.
     
     3. What is an attribute and where do we put it? 
     // attributes define the elements, and they're inside the " " of the name="value" pair
+    
     4. What is the h1 tag used for? How many times should I use it on a page?
     // h1 tag is used for the title of the page, and it should only be used once. 
+    
     5. Name two tags that have required attributes
     // 'img' and 'a'.
+    
     6. What do we put in the head of our HTML document? 
     // metadata.
+    
     7. What is an id? 
     // an id is a CSS selector that only goes on one element, more specific than class, element, and wildcard selectors.
+    
     8. What elements can I add an id to? 
     // it can be used on any element. 
+    
     9. How many times can I use the same id on a page? 
     // only one time per element. 
+    
     10. What is a class? 
-    // less specific than id, the class attribute can be used for elements with the same names. 
+    //  less specific than id, the class attribute can be used for elements with the same names. 
+    
     11. What elements can I add a class to? 
-    // 
+    //  you can add a class to any element.
+    
     12. How many times can I use the same class on a page? 
-
+    //  as many times as necessary within reason. 
+    
     13. How do I get my link to open in a new tab?
+    //  set the target attribute to "_blank" 
 
     14. What is the alt attribute in the image tag used for? 
+    //  it shows text to describe the image if the image cannot be displayed.
 
     15. How do I reference an id?
-
+    //  the hashtag (#)
+    
     16. What is the difference between a section and a div
+    //  a section is used for grouping related content, and a div is used to group any content
 
     17. What is CSS used for? 
+    //  styling HTML (colors, formatting, etc.)
 
     18. How to we select an element? Example - every h2 on the page
+    //  just type the element name before the curlybrace (example here: h2 {})
 
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    //  an #id is more specific than .class, and can only be used to identify one element. 
+        the class selector can be used to identify more than one. 
+        example: you would use id for __, and class for 
 
     20. How do we select classes in CSS?
+    //  
 
     21. How do we select a p element with a single class of “human””?
+    //  
 
     22. What is a parent child selector? When would this be useful? 
+    //  
 
     23. How do you select all links within a div with the class of sidebar?
+    //  
 
     24. What is a pseudo selector?
+    //  
 
     25. What do we use the change the spacing between lines?
+    //  
 
     26. What do we use to change the spacing between letters?
+    //  
 
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    //  
 
     28. How do I add a 1px border around my div that is dotted and black?
+    //  
 
     29. How do I select everything on the page? 
+    //  
 
     30. How do I write a comment in CSS?
+    //  
 
     31. How do I find out what file I am in, when I am using the command line? 
+    //  
 
     32. Using the command line - how do I see a list of files/folders in my current folder?
+    //  
 
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    //  
 
     34. Why should I use version control? 
+    //  it tracks the changes we've made to our files through branching.
 
     35. How often should I commit to github?
+    // every 20 minutes, and/or any time you make significant changes. 
 
     36. What is the command we would use to push our repo up to github? 
+    // git push -u 
 
     37. Walk me through Lambda's git flow. 
     // 
